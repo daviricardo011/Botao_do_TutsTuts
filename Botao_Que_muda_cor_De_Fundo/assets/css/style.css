@@ -1,0 +1,46 @@
+body {
+    background-color:rgb(0, 0, 0);
+}
+
+#container {
+    background-color: rgb(36, 14, 136);
+    width: 200px;
+    height: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: #0000;
+    margin: 0;
+    height: 40px;
+}
+#botao {
+    width: 30px;
+    height: 30px;
+    margin: 0;
+
+
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+
+    background-color: #02085f;
+    font-family:"Segoe UI";
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor:pointer; /*faz o cursor virar a mãozinha*/
+
+}
